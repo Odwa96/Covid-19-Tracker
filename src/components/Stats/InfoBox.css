@@ -1,0 +1,31 @@
+.infoBox {
+  width: 200px;
+  margin-bottom: 20px;
+}
+.infoBox:hover {
+  cursor: pointer;
+}
+.infoBox:nth-child(1) {
+  border-top: 6px solid #3ed124;
+}
+.infoBox:nth-child(2) {
+  border-top: 6px solid #2470bd;
+}
+.infoBox:nth-child(3) {
+  border-top: 6px solid #f02424;
+}
+.selected {
+  transition: 0.5s;
+  transform: scale(1.1);
+}
+.center {
+  text-align: center;
+}
+@media (max-width: 768px) {
+  .infoBox {
+    width: unset;
+  }
+  .MuiTypography-root {
+    font-size: 15px !important;
+  }
+}

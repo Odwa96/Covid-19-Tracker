@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #f2f2fc;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #302e4d;
+}
+p,
+li,
+td {
+  font-size: 17px !important;
+  color: #504e70 !important;
+}
+div,
+strong {
+  color: #302e4d;
+}
+
+.Main {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+}
+.Main .left {
+  flex: 0.8;
+}
+
+@media (max-width: 990px) {
+  .Main {
+    flex-direction: column;
+  }
+}
